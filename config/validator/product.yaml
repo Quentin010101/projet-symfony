@@ -1,0 +1,5 @@
+# App\Entity\Product:
+#   properties:
+#     name:
+#       - NotBlank: { message: 'le nom du produit est obligatoire'}
+#       - Length: { min: 3, max : 255, minMessage: 'taille minimum 4'}
